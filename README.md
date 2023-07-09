@@ -21,6 +21,7 @@ Things you may want to cover:
 
 - Deployment instructions
 
-Complete Ruby on Rails Developer
+Complete Ruby on Rails Developer by santhosh ram
+And made changes for github online account.
 
 - ...
