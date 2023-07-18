@@ -1,4 +1,4 @@
-<h1> New Article </h1>
+<h1> Edit Article </h1>
 <% if @article.errors.any? %>
 <h1>The following errors is prevented </h1>
 <ul>
@@ -7,7 +7,7 @@
   <%end%>
   </ul>
 <%end%>
-<%= form_with scope: :article , url: articles_path , local: true do |f| %>
+<%= form_with(model: @article , local: true )  do |f| %>
 
     <p> 
     <%= f.label :title %><br/> 
